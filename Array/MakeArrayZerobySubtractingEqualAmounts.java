@@ -28,14 +28,12 @@ Algorithom:
 
 class Solution {
     public int minimumOperations(int[] nums) {
-        HashSet<Integer> result = new HashSet<>();
-        for (int num: nums) {
-            if (num == 0) {
-                continue;
+        HashSet<Integer> operations = new HashSet<>();
+        for (int num : nums) {
+            if (num != 0) {
+                operations.add(num);
             }
-            result.add(num);
         }
-
-        return result.size();
+        return operations.size();
     }
 }
