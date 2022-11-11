@@ -23,6 +23,8 @@ Algorithom:
 1. Simplify the question to be identify how many unique "positive" number in the array, 有多少个unique的数就会至少有多少次substraction
 2. Use set everytime we saw "unique"
 3. Return the set size, which is the total number of unique number in the array.
+
+
 */
 
 
