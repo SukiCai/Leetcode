@@ -47,6 +47,7 @@ class Solution {
         while(right_pointer < s.length()) {
             count_char[s.charAt(right_pointer) - 'A']++;
             most_char_frequncy = Math.max(most_char_frequncy, count_char[s.charAt(right_pointer) - 'A']);
+            
             if (right_pointer - left_pointer + 1 - most_char_frequncy > k) {
                 count_char[s.charAt(left_pointer) - 'A']--;
                 left_pointer++;

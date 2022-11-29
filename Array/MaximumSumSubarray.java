@@ -37,6 +37,13 @@ removing the old one(i-k th) element form the map if its count is zero.
 4. Maximize ans by taking max sum value. 
 
 
+[1,2,3,4,5]
+
+
+
+
+
+
 Complexcity:
 Time - O(N)
 Space - O(N)

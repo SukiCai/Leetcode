@@ -41,7 +41,9 @@ Algorithm:
 
 Corner case：例： 当[5, 8]时， 5的右边是9， 8的左边是4， 此时left_index > right_index， 代表没有蜡烛在这个query中间，此时返回0
 
-
+Complexcity：
+Time: O(N + Q) -> N: the length of the string; Q: the length of the queries
+Space: O(N + Q)
 */ 
 
 class Solution {
